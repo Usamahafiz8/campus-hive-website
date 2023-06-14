@@ -29,17 +29,13 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Campus-Hive
-  * Updated: May 30 2023 with Bootstrap v5.3.0
-  * Template URL: https://cybillnerd.com/Campus-Hive-bootstrap-Campus-Hivetics-website-template/
-  * Author: Cybill Nerd.com
-  * License: https://cybillnerd.com/license/
-  ======================================================== -->
 </head>
 
 <body>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -93,6 +89,391 @@
     </div><!-- End Breadcrumbs -->
 
     <!-- ======= Featured Services Section ======= -->
+    <!-- <ol type="1">
+      <li>Student Admission</li>
+      <li>Promote Students</li>
+      <li>Fees Collection</li>
+      <li>Fees Discount</li>
+      <li>Collect Fees</li>
+      <li>Add Siblings</li>
+      <li>Search Students</li>
+      <li>Student Categories</li>
+      <li>Profile System</li>
+      <li>Institute Expense</li>
+      <li>Student Examination</li>
+      <li>Examination</li>
+      <li>Exam Schedule</li>
+      <li>Marks Register</li>
+      <li>Marks Grade</li>
+      <li>Class/Grade and Section</li>
+      <li>Subject</li>
+      <li>Assign Subjects</li>
+      <li>Class TimeTable</li>
+      <li>Download Center</li>
+      <li>Library Management</li>
+      <li>Add books in Library</li>
+      <li>Book Issue/Return</li>
+      <li>Institute Transport</li>
+      <li>Transport Routes</li>
+      <li>Hostel</li>
+      <li>Communicate</li>
+      <li>Student Report</li>
+      <li>Fees Statement Report</li>
+      <li>Balance Fees Report</li>
+      <li>Transaction Report</li>
+      <li>Attendance Report</li>
+      <li>Exam Marks Report</li>
+      <li>General Settings</li>
+      <li>Academic Session</li>
+      <li>SMS Gateway</li>
+      <li>Email Engines</li>
+      <li>Internet Payment Gateways</li>
+      <li>Backup & Restore</li>
+      <li>Multiple Languages</li>
+      <li>RTL (Right To Left)</li>
+      <li>Informative Dashboard</li>
+      <li>Parent Monitoring</li>
+      <li>Regular Free Updates</li>
+      <li>Responsive User Interface</li>
+      <li>Export Data</li>
+      <li>6 User Roles with 6 different Panels</li>
+      <li>Internet Messaging</li>
+      <li>Print Record</li>
+      <li>Homework Document</li>
+      <li>Chart and Graph Analysis in Fees</li>
+      <li>Exam Marks Management</li>
+      <li>Accounting</li>
+    </ol> -->
+    <div class="module-container">
+      <div class="module-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="module-icon">
+          <i class="fas fa-user-graduate"></i>
+        </div>
+        <h3>Student Admission</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="module-icon">
+          <i class="fas fa-arrow-up"></i>
+        </div>
+        <h3>Promote Students</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="300">
+        <div class="module-icon">
+          <i class="fas fa-money-bill-wave"></i>
+        </div>
+        <h3>Fees Collection</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="400">
+        <div class="module-icon">
+          <i class="fas fa-percent"></i>
+        </div>
+        <h3>Fees Discount</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="500">
+        <div class="module-icon">
+          <i class="fas fa-money-check"></i>
+        </div>
+        <h3>Collect Fees</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="600">
+        <div class="module-icon">
+          <i class="fas fa-users"></i>
+        </div>
+        <h3>Add Siblings</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="700">
+        <div class="module-icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <h3>Search Students</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="800">
+        <div class="module-icon">
+          <i class="fas fa-tags"></i>
+        </div>
+        <h3>Student Categories</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="900">
+        <div class="module-icon">
+          <i class="fas fa-user-cog"></i>
+        </div>
+        <h3>Profile System</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="1000">
+        <div class="module-icon">
+          <i class="fas fa-money-bill-alt"></i>
+        </div>
+        <h3>Institute Expense</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="1100">
+        <div class="module-icon">
+          <i class="fas fa-clipboard-check"></i>
+        </div>
+        <h3>Student Examination</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="1200">
+        <div class="module-icon">
+          <i class="fas fa-clipboard-list"></i>
+        </div>
+        <h3>Examination</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="1300">
+        <div class="module-icon">
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+        <h3>Exam Schedule</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="1400">
+        <div class="module-icon">
+          <i class="fas fa-tasks"></i>
+        </div>
+        <h3>Marks Register</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="1500">
+        <div class="module-icon">
+          <i class="fas fa-chart-bar"></i>
+        </div>
+        <h3>Marks Grade</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="1600">
+        <div class="module-icon">
+          <i class="fas fa-layer-group"></i>
+        </div>
+        <h3>Class/Grade and Section</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="1700">
+        <div class="module-icon">
+          <i class="fas fa-book"></i>
+        </div>
+        <h3>Subject</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="1800">
+        <div class="module-icon">
+          <i class="fas fa-user-tie"></i>
+        </div>
+        <h3>Assign Subjects</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="1900">
+        <div class="module-icon">
+          <i class="fas fa-table"></i>
+        </div>
+        <h3>Class TimeTable</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="2000">
+        <div class="module-icon">
+          <i class="fas fa-download"></i>
+        </div>
+        <h3>Download Center</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="2100">
+        <div class="module-icon">
+          <i class="fas fa-book-open"></i>
+        </div>
+        <h3>Library Management</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="2200">
+        <div class="module-icon">
+          <i class="fas fa-book"></i>
+        </div>
+        <h3>Add books in Library</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="2300">
+        <div class="module-icon">
+          <i class="fas fa-book-reader"></i>
+        </div>
+        <h3>Book Issue/Return</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="2400">
+        <div class="module-icon">
+          <i class="fas fa-bus"></i>
+        </div>
+        <h3>Institute Transport</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="2500">
+        <div class="module-icon">
+          <i class="fas fa-route"></i>
+        </div>
+        <h3>Transport Routes</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="2600">
+        <div class="module-icon">
+          <i class="fas fa-hotel"></i>
+        </div>
+        <h3>Hostel</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="2700">
+        <div class="module-icon">
+          <i class="fas fa-comments"></i>
+        </div>
+        <h3>Communicate</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="2800">
+        <div class="module-icon">
+          <i class="fas fa-chart-pie"></i>
+        </div>
+        <h3>Student Report</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="2900">
+        <div class="module-icon">
+          <i class="fas fa-file-invoice-dollar"></i>
+        </div>
+        <h3>Fees Statement Report</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="3000">
+        <div class="module-icon">
+          <i class="fas fa-balance-scale"></i>
+        </div>
+        <h3>Balance Fees Report</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="3100">
+        <div class="module-icon">
+          <i class="fas fa-exchange-alt"></i>
+        </div>
+        <h3>Transaction Report</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="3200">
+        <div class="module-icon">
+          <i class="fas fa-calendar-check"></i>
+        </div>
+        <h3>Attendance Report</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="3300">
+        <div class="module-icon">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <h3>Exam Marks Report</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="3400">
+        <div class="module-icon">
+          <i class="fas fa-cogs"></i>
+        </div>
+        <h3>General Settings</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="3500">
+        <div class="module-icon">
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+        <h3>Academic Session</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="3600">
+        <div class="module-icon">
+          <i class="fas fa-sms"></i>
+        </div>
+        <h3>SMS Gateway</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="3700">
+        <div class="module-icon">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <h3>Email Engines</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="3800">
+        <div class="module-icon">
+          <i class="fas fa-credit-card"></i>
+        </div>
+        <h3>Internet Payment Gateways</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="3900">
+        <div class="module-icon">
+          <i class="fas fa-database"></i>
+        </div>
+        <h3>Backup & Restore</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="4000">
+        <div class="module-icon">
+          <i class="fas fa-globe"></i>
+        </div>
+        <h3>Multiple Languages</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="4100">
+        <div class="module-icon">
+          <i class="fas fa-align-right"></i>
+        </div>
+        <h3>RTL (Right To Left)</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="4200">
+        <div class="module-icon">
+          <i class="fas fa-tachometer-alt"></i>
+        </div>
+        <h3>Informative Dashboard</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="4300">
+        <div class="module-icon">
+          <i class="fas fa-eye"></i>
+        </div>
+        <h3>Parent Monitoring</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="4400">
+        <div class="module-icon">
+          <i class="fas fa-sync-alt"></i>
+        </div>
+        <h3>Regular Free Updates</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="4500">
+        <div class="module-icon">
+          <i class="fas fa-desktop"></i>
+        </div>
+        <h3>Responsive User Interface</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="4600">
+        <div class="module-icon">
+          <i class="fas fa-file-export"></i>
+        </div>
+        <h3>Export Data</h3>
+      </div>
+    </div>
+
+    <div class="module-container">
+      <div class="module-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="module-icon">
+          <i class="fas fa-user-graduate"></i>
+        </div>
+        <h3>Student Admission</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="module-icon">
+          <i class="fas fa-arrow-up"></i>
+        </div>
+        <h3>Promote Students</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="300">
+        <div class="module-icon">
+          <i class="fas fa-money-bill-wave"></i>
+        </div>
+        <h3>Fees Collection</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="400">
+        <div class="module-icon">
+          <i class="fas fa-percent"></i>
+        </div>
+        <h3>Fees Discount</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="500">
+        <div class="module-icon">
+          <i class="fas fa-money-check"></i>
+        </div>
+        <h3>Collect Fees</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="600">
+        <div class="module-icon">
+          <i class="fas fa-users"></i>
+        </div>
+        <h3>Add Siblings</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="700">
+        <div class="module-icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <h3>Search Students</h3>
+      </div>
+      <div class="module-item" data-aos="fade-up" data-aos-delay="800">
+        <div class="module-icon">
+          <i class="fas fa-tags"></i>
+        </div>
+        <h3>Student Categories</h3>
+      </div>
+      <!-- Add the rest of the modules here -->
+    </div>        
     <section id="featured-services" class="featured-services">
       <div class="container">
 
@@ -176,7 +557,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/trucking-service.jpg" alt="" class="img-fluid">
+                <!-- <img src="assets/img/trucking-service.jpg" alt="" class="img-fluid"> -->
               </div>
               <h3><a href="service-details.html" class="stretched-link">Trucking</a></h3>
               <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
@@ -186,7 +567,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/packaging-service.jpg" alt="" class="img-fluid">
+                <!-- <img src="assets/img/packaging-service.jpg" alt="" class="img-fluid"> -->
               </div>
               <h3><a href="service-details.html" class="stretched-link">Packaging</a></h3>
               <p>Illo consequuntur quisquam delectus praesentium modi dignissimos facere vel cum onsequuntur maiores beatae consequatur magni voluptates</p>
@@ -196,7 +577,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/warehousing-service.jpg" alt="" class="img-fluid">
+                <!-- <img src="assets/img/warehousing-service.jpg" alt="" class="img-fluid"> -->
               </div>
               <h3><a href="service-details.html" class="stretched-link">Warehousing</a></h3>
               <p>Quas assumenda non occaecati molestiae. In aut earum sed natus eatae in vero. Ab modi quisquam aut nostrum unde et qui est non quo nulla</p>
@@ -207,177 +588,6 @@
 
       </div>
     </section><!-- End Services Section -->
-
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-      <div class="container">
-
-        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
-
-          <div class="col-md-5">
-            <img src="assets/img/features-1.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check"></i> Ullam est qui quos consequatur eos accusamus.</li>
-            </ul>
-          </div>
-        </div><!-- Features Item -->
-
-        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
-          <div class="col-md-5 order-1 order-md-2">
-            <img src="assets/img/features-2.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 order-2 order-md-1">
-            <h3>Corporis temporibus maiores provident</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
-          </div>
-        </div><!-- Features Item -->
-
-        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
-          <div class="col-md-5">
-            <img src="assets/img/features-3.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7">
-            <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
-            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
-            <ul>
-              <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
-            </ul>
-          </div>
-        </div><!-- Features Item -->
-
-        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
-          <div class="col-md-5 order-1 order-md-2">
-            <img src="assets/img/features-4.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 order-2 order-md-1">
-            <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
-          </div>
-        </div><!-- Features Item -->
-
-      </div>
-    </section><!-- End Features Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container">
-
-        <div class="slides-1 swiper" data-aos="fade-up">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq">
@@ -523,7 +733,7 @@
             Gulshan Abad, Rawalpindi<br>
             Pakistan <br><br>
             <strong>Phone:</strong> +92 332 6551460<br>
-            <strong>Email:</strong> info@campushive.com<br>
+            <strong>Email:</strong> info@Campus-Hive.com<br>
           </p>
 
         </div>
