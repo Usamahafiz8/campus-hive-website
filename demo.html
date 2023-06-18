@@ -52,9 +52,9 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="services.html">Features</a></li>
-          <li><a href="demo.html">Demo</a></li>
+          <li><a href="demo.html" class="active" >Demo</a></li>
           <li><a href="pricing.html">Subscription Plan</a></li>
-          <li><a href="contact.html"  class="active">Contact</a></li>
+          <li><a href="contact.html"  >Contact</a></li>
           <li><a class="get-a-quote" href="#">Login / Register Now</a></li>
         </ul>
       </nav><!-- .navbar -->
@@ -71,8 +71,8 @@
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
-              <h2>Got A Question?</h2>
-              <p>Leave a message below and we'll be in touch</p>
+              <h2>Booked Your Demo</h2>
+              <p>Fill up the form and will be right there ASAP.</p>
             </div>
           </div>
         </div>
@@ -81,7 +81,7 @@
         <div class="container">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Contact</li>
+            <li>Demo Registartion</li>
           </ol>
         </div>
       </nav>
@@ -125,24 +125,35 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Full Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
+                
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Phone Number" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Institute" required>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Date" required>
+              </div>
+                
+
+
+              
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="4" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Your message has been sent. Will inform you as soon as possible. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Book Demo</button></div>
             </form>
           </div><!-- End Contact Form -->
 
